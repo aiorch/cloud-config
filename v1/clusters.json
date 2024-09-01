@@ -1,0 +1,86 @@
+[
+    {
+        "displayName": "AI cloud1",
+        "id": "05f0523c-fd03-47fc-981b-9c4333a37b75",
+        "clustertype": "Cloud",
+        "apiurl": "https://us-east-1.api-aicloud.kin.com",
+        "ConfigProperties": {
+          "allocatedCpu": 128,
+          "allocatedMemory": 768,
+          "allocatedStorage":4096,
+          "allocatedGpu": 8
+        },
+        "createdAt": "",
+        "location": {
+          "id": "05f0523c-fd03-47fc-981b-9c4333a37b75",
+          "providerId": "AWS-05f0523c",
+          "locationRegionName": "EQ-US-East-1",
+          "createdAt": "",
+          "locationType": "AWS",
+          "postalAddress": "#123, Hasley St., NJ, US 58301"
+        }
+    },
+    {
+        "displayName": "AI cloud2",
+        "id": "35f0523c-fd03-47fc-981b-9c4333a37b76",
+        "clustertype": "Cloud",
+        "apiurl": "https://us-east-1.api-aicloud.kin.com",
+        "ConfigProperties": {
+          "allocatedCpu": 128,
+          "allocatedMemory": 768,
+          "allocatedStorage":4096,
+          "allocatedGpu": 8
+        },
+        "createdAt": "",
+        "location": {
+          "id": "05f0523c-fd03-47fc-981b-9c4333a37b75",
+          "providerId": "AWS-05f0523c",
+          "locationRegionName": "EQ-US-East-1",
+          "createdAt": "",
+          "locationType": "AWS",
+          "postalAddress": "#123, Hasley St., NJ, US 58301"
+        }
+    },
+    {
+        "displayName": "Hub cloud",
+        "id": "15f0523c-fd03-47fc-981b-9c4333a37b76",
+        "clustertype": "Hub",
+        "apiurl": "https://us-east-1.api-hubcloud.kin.com",
+        "ConfigProperties": {
+          "allocatedCpu": 128,
+          "allocatedMemory": 768,
+          "allocatedStorage":4096,
+          "allocatedGpu": 8
+        },
+        "createdAt": "",
+        "location": {
+          "id": "05f0523c-fd03-47fc-981b-9c4333a37b75",
+          "providerId": "AWS-05f0523c",
+          "locationRegionName": "EQ-US-East-1",
+          "createdAt": "",
+          "locationType": "AWS",
+          "postalAddress": "#123, Hasley St., NJ, US 58301"
+        }
+    },
+    {
+        "displayName": "Edge Cluster1",
+        "id": "25f0523c-fd03-47fc-981b-9c4333a37b77",
+        "clustertype": "Edge",
+        "apiurl": "https://us-east-1.api-aicloud.kin.com",
+        "ConfigProperties": {
+          "allocatedCpu": 8,
+          "allocatedMemory": 32,
+          "allocatedStorage":256,
+          "allocatedGpu": 2
+        },
+        "createdAt": "",
+        "location": {
+          "id": "05f0523c-fd03-47fc-981b-9c4333a37b75",
+          "providerId": "AWS-05f0523c",
+          "locationRegionName": "EQ-US-East-1",
+          "createdAt": "",
+          "locationType": "AWS",
+          "postalAddress": "#123, Hasley St., NJ, US 58301"
+        }         
+    }    
+]
